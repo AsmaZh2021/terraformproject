@@ -1,0 +1,28 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 2rem;
+  background: #f9f9f9;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+input, button {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background: #1976d2;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0d47a1;
+}
